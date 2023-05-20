@@ -63,9 +63,13 @@ for Dockerfile creation:
 $ pip freeze > requirements.txt
 
 $ git checkout -b feature/deploy-app
+  
 $ git add .
+  
 $ git commit -m "added requirements"
+  
 $ git push origin feature/deploy-app
+  
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 Cheers and Happy Coding :)
